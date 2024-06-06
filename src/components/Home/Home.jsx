@@ -19,7 +19,7 @@ const Home = () => {
             <Button
               variant="primary"
               className="resume-btn"
-              onClick={() => window.open("/images/resume.pdf", "_blank")}
+              onClick={() => window.open("/images/Sonali-resume.pdf", "_blank")}
             >
               Resume
             </Button>
