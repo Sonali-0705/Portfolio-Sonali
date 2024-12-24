@@ -11,7 +11,7 @@ const Home = () => {
         <Col md={6} sm={12} className="intro-section ">
           <h1 className="hello">Hello👋</h1>
           <h2 className="name">I'm Sonali Kumawat</h2>
-          <h3 className="position">Front End Developer</h3>
+          <h3 className="position">Aspiring Full stack Developer</h3>
           <p className="para">
             I love to design and code simple beautiful things!
           </p>
@@ -19,7 +19,9 @@ const Home = () => {
             <Button
               variant="primary"
               className="resume-btn"
-              onClick={() => window.open("/images/Sonali-resume.pdf", "_blank")}
+              onClick={() =>
+                window.open("/images/Sonali Kumawat - Resume.pdf", "_blank")
+              }
             >
               Resume
             </Button>

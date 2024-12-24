@@ -50,6 +50,9 @@ const About = () => {
               <img src="/images/js.png" alt="JavaScript" />
               <img src="/images/reactjs.png" alt="ReactJS" />
               <img src="/images/bootstrap.png" alt="Bootstrap" />
+              <img src="/images/tailwind.png" alt="Tailwind CSS" />
+              <img src="/images/nodejs.png" alt="NodeJS" />
+              <img src="/images/expressjs.png" alt="ExpressJS" />
               <img src="/images/github.png" alt="GitHub" />
               <img src="/images/vscode.png" alt="VS Code" />
             </div>
