@@ -32,7 +32,7 @@ const projects = [
       "🧑‍🤝‍🧑 Role-Based Access Control: Separate user and admin privileges.",
     ],
     githubLink: "https://github.com/Sonali-0705/FashionFix.git",
-    demoVideo: "/images/flower-video.mp4",
+    demoVideo: "/images/FashionFix-video.mp4",
   },
 
   {

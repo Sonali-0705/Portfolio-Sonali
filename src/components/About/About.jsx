@@ -54,6 +54,7 @@ const About = () => {
               <img src="/images/expressjs.png" alt="ExpressJS" />
               <img src="/images/github.png" alt="GitHub" />
               <img src="/images/vscode.png" alt="VS Code" />
+              <img src="/images/cpp.png" alt="C++" />
             </div>
           </div>
         </Col>
