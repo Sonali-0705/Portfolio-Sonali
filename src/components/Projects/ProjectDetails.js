@@ -1,25 +1,40 @@
 // Define your projects array with additional details
 const projects = [
   {
-    title: "Flora - E-commerce Flower Shop",
-    image: "/images/flower.png",
+    title: "FashionFix - MERN Stack E-Commerce Website",
+    image: "/images/FashionFix.png",
     description:
-      "Elevating your online flower shopping experience with seamless cart and wishlist features.",
+      "A MERN Stack e-commerce website offering seamless shopping, category filtering, cart management, and secure payment integration.",
     details:
-      "Flora is an enticing e-commerce platform crafted specifically for a fictitious online flower shop. This project primarily focuses on the frontend development using React, React Bootstrap, JavaScript, HTML, and CSS, aimed at elevating online sales and enriching user experience. With an emphasis on cart and wishlist functionalities, Flora strives to streamline item management while ensuring a visually appealing and responsive design.",
-    technologies: ["React.js", "Bootstrap", "HTML", "CSS", "JavaScript"],
-    contributionPoints: [
-      "Responsive Design: Flora is meticulously designed with a responsive layout, ensuring seamless adaptation across various devices and screen sizes. Whether accessed on desktops, tablets, or smartphones, users can enjoy a consistent and optimized browsing experience.",
-      "E-commerce Functionality: The core functionality of Flora revolves around facilitating flower purchases through an intuitive and user-friendly interface. Users can explore a diverse range of floral offerings, view detailed product descriptions, and seamlessly add desired items to their carts or wishlists.",
-      "Cart Management: The cart feature in Flora allows users to effortlessly manage their selected items. Through the use of React and React Bootstrap, users can add or remove items from their carts, adjust quantities, and proceed to checkout with ease.",
-      "Wishlist Functionality: Flora enriches user engagement by incorporating a wishlist feature. Users can curate a personalized collection of desired items, enabling them to revisit and purchase these selections at their convenience.",
-      "User-friendly Interface: The interface of Flora is thoughtfully crafted to prioritize user experience. Intuitive navigation menus, visually appealing product displays, and clear call-to-action elements contribute to a seamless browsing and shopping journey.",
+      "FashionFix is a feature-rich full-stack e-commerce website designed to provide users with a seamless shopping experience and administrators with powerful tools for managing the platform. This project leverages the MERN stack for robust and scalable development.",
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Mongoose",
+      "Stripe",
+      "JWT",
+      "Bcrypt",
+      "etc..",
     ],
-    githubLink: "https://github.com/Sonali-0705/Flora-App",
+    contributionPoints: [
+      " 🛍️ Category Filtering: Effortlessly find products by categories.",
+      " 🛒 Shopping Cart: Add, update, and remove items from the cart.",
+      " 💳 Stripe Payment Integration: Secure and hassle-free payment processing.",
+      " 🌟 Product Reviews: Share feedback and browse reviews from other users.",
+      " 📊 Dashboards: Monitor orders, inventory, and platform analytics.",
+      " 🗂️ Order Management: View and update order statuses.",
+      " ✍️ Manage Products: Create, read, update, or delete products.",
+      " 📈 Data Visualization: Gain insights with intuitive charts and graphs.",
+      " 🔒 Authentication and Authorization: Secure access with JWT and password hashing.",
+      "🧑‍🤝‍🧑 Role-Based Access Control: Separate user and admin privileges.",
+    ],
+    githubLink: "https://github.com/Sonali-0705/FashionFix.git",
     demoVideo: "/images/flower-video.mp4",
-    // Add more project details as needed
   },
-  // Add more projects as needed
+
   {
     title: "Weather Forecast App",
     image: "/images/weather.png",
@@ -34,29 +49,27 @@ const projects = [
       "Theme Toggling: To accommodate different preferences and lighting conditions, the Weather Forecast App offers theme toggling functionality. Users can switch between light and dark themes seamlessly, enhancing readability and visual comfort.",
       "City Search Functionality: The application simplifies the process of accessing weather forecasts for specific cities through intuitive search functionality. Users can enter the name of their desired location and instantly retrieve relevant weather data, enabling quick and effortless access to forecasts worldwide.",
     ],
-    githubLink: "https://github.com/Sonali-0705/Weather-App`",
+    githubLink: "https://github.com/Sonali-0705/Weather-App.git",
     demoVideo: "/images/weather-video.mp4",
-    // Add more project details as needed
   },
   {
-    title: "Spotify Clone",
-    image: "/images/spotify.png",
+    title: "Task Tracker Application",
+    image: "/images/todo.png",
     description:
-      "Responsive layouts, interactive playlist navigation, and playback controls in a music streaming application.",
+      "A simple task tracker application built with React to manage to-do items. This application allows users to add, update, delete, and mark tasks as complete or incomplete. The app is styled using CSS to enhance the user experience.",
     details:
-      "The Spotify Clone is a web application designed to replicate the functionality and user interface of the popular music streaming platform, Spotify. Developed using HTML, CSS, and JavaScript, this project aims to provide users with an immersive music listening experience in a browser environment. By leveraging responsive design principles and implementing interactive features such as playlist navigation, seekbar functionality, and playback controls, the Spotify Clone delivers a seamless and engaging user experience across all devices.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "A simple and intuitive task tracker application built with React for managing to-do items efficiently. Users can add, update, delete, and mark tasks as complete or incomplete, making task management seamless. Styled with CSS, the app provides a clean and user-friendly interface to enhance the overall experience.",
+    technologies: ["React.js", "CSS", "HTML"],
     contributionPoints: [
-      "Responsive Layouts: The Spotify Clone prioritizes responsiveness, ensuring optimal viewing and interaction across a wide range of devices, including desktops, tablets, and smartphones. Adaptive layouts dynamically adjust to different screen sizes, maintaining consistency and usability.",
-      "Interactive Features: The application offers a suite of interactive features that mimic the functionality of the original Spotify platform. Users can navigate through playlists, control playback with play/pause, next song, and previous song options, and adjust playback progress using the seekbar.",
-      "Seekbar Functionality: Users can precisely control the playback progress of songs using the seekbar feature. The seekbar provides visual feedback on the current playback position, enabling users to skip forward or backward within a track.",
-      "Playback Controls: The application includes comprehensive playback controls for managing music playback. Users can play, pause, skip to the next or previous song, and adjust volume levels to customize their listening experience.",
+      " 📋 Add Tasks: Easily create new to-do items.",
+      " ✏️ Update Tasks: Edit existing tasks as needed.",
+      " ❌ Delete Tasks: Remove tasks that are no longer required.",
+      " ✅ Mark Tasks as Complete/Incomplete: Toggle task status with a single click.",
+      "🎨 CSS Styling: Enjoy a clean and user-friendly interface designed with CSS.",
+      "⚡ React-Based: Built with React for a responsive and dynamic user experience.",
     ],
-    githubLink: "https://github.com/Sonali-0705/Spotify-Clone",
-    demoVideo: "/images/spotify-video.mp4",
-    // Add more project details as needed
+    githubLink: "https://github.com/Sonali-0705/Task-Tracker.git",
+    demoVideo: "/images/todo-video.mp4",
   },
-
-  // Add more projects as needed
 ];
 export default projects;

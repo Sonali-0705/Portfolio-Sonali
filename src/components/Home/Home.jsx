@@ -45,7 +45,7 @@ const Home = () => {
           className="profile-section d-flex justify-content-center"
         >
           <img
-            src="/images/image.png"
+            src="/images/image2.jpeg"
             alt="Profile"
             className="profile-img img-fluid"
           />

@@ -25,7 +25,7 @@
 
 .position {
   font-size: 1.5rem;
-  color: #fff;
+  color: #f6d593;
   margin-bottom: 2rem;
 }
 
@@ -45,11 +45,11 @@
 }
 
 .profile-img {
-  opacity: 0.8;
+  /* opacity: 0.8; */
   max-width: 600px;
   height: 400px;
   border-radius: 50%;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
 }
 
 /* Responsive styles */

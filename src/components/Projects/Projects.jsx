@@ -55,6 +55,7 @@ const Projects = () => {
                     className="p-btn"
                     variant="secondary"
                     href={project.githubLink}
+                    target="_blank"
                   >
                     GitHub
                   </Button>
@@ -108,7 +109,12 @@ const Projects = () => {
               </ul>
               <p>
                 GitHub Repository:{" "}
-                <a href={projects[currentProjectIndex].githubLink}>Link</a>
+                <a
+                  href={projects[currentProjectIndex].githubLink}
+                  target="__blank"
+                >
+                  Link
+                </a>
               </p>
             </Modal.Body>
             <Modal.Footer>

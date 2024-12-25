@@ -6,38 +6,37 @@ const About = () => {
   return (
     <Container className="about-container">
       <Row className="about-row">
+        <Col md={6} className="about-text-col">
+          <h1 className="a-title">About Me</h1>
+          <div className="about-text">
+            <p>
+              Hello! I'm Sonali Kumawat, a web developer and tech enthusiast
+              based in Jaipur, Rajasthan. I’m passionate about creating
+              responsive and user-friendly web applications that deliver
+              meaningful experiences. My journey in web development has been
+              shaped by a love for problem-solving and a drive to learn and grow
+              with every project I undertake. I’m excited to contribute to
+              innovative projects, collaborate with like-minded professionals,
+              and continuously explore new technologies. Turning ideas into
+              impactful solutions is what inspires me every day, and I’m ready
+              to make my mark in the world of tech.
+            </p>
+            <button
+              className="btn-resume"
+              onClick={() =>
+                window.open("/images/Sonali Kumawat - Resume.pdf", "_blank")
+              }
+            >
+              Resume
+            </button>
+          </div>
+        </Col>
         <Col md={5} className="about-image-col">
           <img
             src="/images/about.gif"
             alt="About Me"
             className="about-image img-fluid"
           />
-        </Col>
-        <Col md={7} className="about-text-col">
-          <h1 className="a-title">About Me</h1>
-          <div className="about-text">
-            <p>
-              Hello! I'm Sonali Kumawat, an IT enthusiast based in Jaipur,
-              Rajasthan, with a Bachelor's degree in Information Technology. I
-              have a deep passion for web development and technology, and I am
-              dedicated to continuously learning and expanding my skills. My
-              journey into web development has been fueled by a desire to create
-              intuitive and responsive user experiences. I enjoy solving
-              problems and collaborating with others to bring innovative ideas
-              to life. Through various projects, I have implemented creative
-              solutions and developed a keen understanding of industry best
-              practices. My goal is to make a meaningful impact in the IT
-              industry by contributing to projects that challenge and inspire
-              me. I'm always excited to connect with like-minded professionals
-              and explore new opportunities to learn and grow.
-            </p>
-            <button
-              className="btn-resume"
-              onClick={() => window.open("/images/Sonali-resume.pdf", "_blank")}
-            >
-              Resume
-            </button>
-          </div>
         </Col>
       </Row>
       <Row className="skills-section">

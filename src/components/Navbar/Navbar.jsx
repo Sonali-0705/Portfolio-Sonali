@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <Navbar className="navbar" expand="lg" sticky="top" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Sonali</Navbar.Brand>
+        <Navbar.Brand href="#home">SR</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav ">
           <Nav className="mx-auto nav-items ">
